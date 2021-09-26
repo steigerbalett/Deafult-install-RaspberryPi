@@ -1,7 +1,7 @@
-# Deafult-install-RaspberryPi
+# Default install script for my RaspberryPi settings
 Just a lazy install script, to set ma default RaspberryPi settings
 
-Installscript for my deafult settings on RaspberryPi (with Raspberry Pi OS 10 Lite)
+Installscript for my default settings on RaspberryPi (with Raspberry Pi OS 10 Lite)
 
 ###############
 
