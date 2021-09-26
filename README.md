@@ -19,7 +19,11 @@ Installscript for my default settings on RaspberryPi (with Raspberry Pi OS 10 Li
 
 :heavy_check_mark: disable search for SD after USB boot
 
-###############
+---
+
+:milky_way: How to use:
+
+##############
 
 cd /tmp
 
