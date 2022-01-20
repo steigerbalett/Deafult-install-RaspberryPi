@@ -44,15 +44,16 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 #Create 1-G Swap
+# Checking Memory Requirements
 echo ''
-echo 'Checking minimum system memory requirements ...'
+echo "Checking minimum system memory requirements ..."
 echo ''
 memtotal=$(cat /proc/meminfo | grep MemTotal | grep -o '[0-9]*')
 swaptotal=$(cat /proc/meminfo | grep SwapTotal | grep -o '[0-9]*')
-echo 'Your total system memory is $memtotal'
-echo 'Your total system swap is $swaptotal'
+echo "Your total system memory is $memtotal"
+echo "Your total system swap is $swaptotal"
 totalmem=$(($memtotal + $swaptotal))
-echo 'Your effective total system memory is $totalmem'
+echo "Your effective total system memory is $totalmem"
 
 if [[ $totalmem -lt 900000 ]]
   then
